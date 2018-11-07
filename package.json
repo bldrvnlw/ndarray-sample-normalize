@@ -1,0 +1,47 @@
+{
+  "name": "ndarray-sample-normalize",
+  "version": "1.0.0",
+  "description": "Normalizes an ndarray to zero mean and unit sample variance",
+  "main": "normalize.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "browserify": {
+    "transform": "cwise"
+  },
+  "dependencies": {
+    "cwise": "^1.0.5",
+    "ndarray-moments": "^1.0.0"
+  },
+  "devDependencies": {
+    "baboon-image": "~2.0.0",
+    "ndarray": "~1.0.0",
+    "ndarray-normalize": "~1.0.0",
+    "luminance": "~1.0.0",
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bldrvnlw/ndarray-sample-normalize.git"
+  },
+  "keywords": [
+    "normalize",
+    "ndarray",
+    "unit",
+    "mean",
+    "variance",
+    "sample",
+    "volume"
+  ],
+  "author": "Mikola Lysenko",
+  "contributors": [
+    "Baldur van Lew"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "7840a186a3ae1e983ed1879ec9627940b71a63b8"
+}
